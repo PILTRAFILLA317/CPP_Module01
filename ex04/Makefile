@@ -1,13 +1,11 @@
-NAME = BraiiiiiiinnnzzzZ
+NAME = Replace
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -fsanitize=address -g3 -std=c++98
 RM = rm -f
 
 FILE = main \
-newZombie \
-randomChump \
-Zombie \
+Replace \
 
 SRCS = $(addsuffix .cpp, $(FILE))
 OBJS = $(addsuffix .o, $(FILE))
