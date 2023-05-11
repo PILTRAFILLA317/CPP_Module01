@@ -8,6 +8,7 @@ int main( void ) {
 	std::cin >> name;
 
 	Zombie zombi1(name);
+	zombi1.announce();
 	
 	std::cout << "Creating zombie on the heap." << std::endl;
 	std::cout << "Zombie name: " << std::flush;
@@ -18,6 +19,6 @@ int main( void ) {
 	delete zombi2;
 
 	std::cout << "Calling randomChump()." << std::endl;
-	randomChump("randi");
+	randomChump("Jose");
 	return 0;
 }

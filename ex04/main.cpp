@@ -2,7 +2,7 @@
 
 int main(int ac, char **av) {
 
-	if (ac > 4 || ac <= 0){
+	if (ac != 4){
 		std::cout << "Error" << "\n";
 		return (0);
 	}
